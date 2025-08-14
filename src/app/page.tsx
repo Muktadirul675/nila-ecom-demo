@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="p-5 text-2xl w-full md:w-4/5 mx-auto">
       <div>
-        {useText('This is a demo navbar showcase integrating multi langugaes (Bangla, English) support.', '')}
+        {useText('This is a demo navbar showcase integrating multi langugaes (Bangla, English) support.', 'এটি একটি ডেমো ন্যাভবার শোকেজ এবং বাংলা ও ইংরেজি সাপোর্টেড। (Default: বাংলা)')}
       </div>
       <div>
         {useText(<>
