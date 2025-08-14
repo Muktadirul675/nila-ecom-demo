@@ -12,7 +12,7 @@ export default function Navbar() {
             <Image width={112} height={56} src="https://fabrilife.com/img/fabrilife.svg" alt="Logp" className="h-16" />
             <div className="ms-auto hidden md:block w-[500px]">
                 <div className="border border-gray-300 rounded flex px-2 py-1 items-center justify-between gap-2">
-                    <input placeholder={useText('Search In English', 'à¦¸à¦¾à¦°à') as string} type="text" className="border-0 w-full outline-none" />
+                    <input placeholder={useText('Search In English', 'বাংলায় সার্চ করুন) as string} type="text" className="border-0 w-full outline-none" />
                     <BiSearch className="text-2xl text-slate-500" />
                 </div>
             </div>
